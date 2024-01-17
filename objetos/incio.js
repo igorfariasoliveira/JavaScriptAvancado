@@ -5,4 +5,6 @@ const anime = {
   personagens : 'Naruto, Sasuke, Sakura',
 };
 
-console.log(anime.personagens);
+anime.morte = 'Jiraya';
+delete anime.tag;
+console.log(anime);
