@@ -1,8 +1,8 @@
 const anime = {
-  titulo:'naruto',
+  titulo:'Naruto',
   ano : '2002',
   tag : 'ação',
   personagens : 'Naruto, Sasuke, Sakura',
 };
 
-console.log(anime)
+console.log(anime.personagens);
