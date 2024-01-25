@@ -1,2 +1,3 @@
-let n = 20;
-console.log(typeof(n));
+let valores = [5,4,6,2]
+
+console.log(valores[2])
