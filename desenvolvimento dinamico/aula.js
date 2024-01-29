@@ -1,3 +1,10 @@
-let valores = [5,4,6,2]
+let valores = [8,4,6,2];
+let soma = 0;
 
-console.log(valores[2])
+for (var i = 0; i < valores.length; i++) {
+  soma += valores[i];
+}
+
+let media = soma/valores.length;
+
+console.log(media);
