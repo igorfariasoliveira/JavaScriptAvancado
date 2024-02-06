@@ -1,4 +1,4 @@
-let opção = 1;
+let opção = 4;
 let valor = ""
 switch(opção){
   case 1: 
@@ -13,4 +13,6 @@ switch(opção){
     valor = 4;
     console.log("Você escolheu o leite. Deve pagar R$"+valor.toFixed(2))
     break
+  default:
+    console.log("Você deve escolher entre café, chá ou leite!")
 }
