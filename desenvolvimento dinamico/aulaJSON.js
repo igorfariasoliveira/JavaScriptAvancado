@@ -6,3 +6,6 @@ const pessoa = {
 
 const pessoajason = JSON.stringify(pessoa);
 console.log(pessoajason);
+
+const pessoaObj = JSON.parse(pessoajason);
+console.log(pessoaObj)
