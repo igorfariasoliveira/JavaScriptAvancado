@@ -1,7 +1,8 @@
 const pessoa = {
   nome: "igor",
-  idade: "28",
+  idade: 28,
   genero: "masculino"
 };
 
-const pessoajason = JSON.stringify(pessoa)
+const pessoajason = JSON.stringify(pessoa);
+console.log(pessoajason);
